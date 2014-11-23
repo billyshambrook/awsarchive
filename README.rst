@@ -9,7 +9,6 @@ line utilities and Python API's.
 
 * `Used AWS Services`_
 * `Command line utilities`_
-* `API usage`_
 * `Contribute`_
 
 Further Documentation: http://awsarchive.readthedocs.org/
