@@ -8,8 +8,10 @@ using the products provided by AWS_. This project will provide both command
 line utilities and Python API's.
 
 * `Used AWS Services`_
-* `Command line utilities`_
+* `Installation`_
 * `Contribute`_
+* `Command line utilities`_
+* API_
 
 Further Documentation: http://awsarchive.readthedocs.org/
 
@@ -24,6 +26,33 @@ Used AWS Services
 
 The project assumes that you have a single AWS access and secret key that can be
 used across the AWS services used.
+
+
+Installation
+------------
+
+Install via `pip`_:
+
+::
+
+    $ pip install awsarchive
+
+Install from source:
+
+::
+
+    $ git clone git://github.com/billyshambrook/awsarchive.git
+    $ cd awsarchive
+    $ python setup.py install
+
+
+Contribute
+----------
+
+`awsarchive` is an open-source software originally written by BillyShambrook_ 
+and released under the MIT licence. The project is hosted on Github_, where
+everyone is welcome to contribute, ask for help or simply give feedback. Please
+fork project, add your changes and open a pull request.
 
 
 Command line utilities
@@ -51,16 +80,10 @@ glacier  Move files to Glacier_.
 ======== ==========================
 
 
-Contribute
-----------
-
-`awsarchive` is an open-source software originally written by BillyShambrook_ 
-and released under the MIT licence. The project is hosted on Github_, where
-everyone is welcome to contribute, ask for help or simply give feedback. Please
-fork project, add your changes and open a pull request.
-
 .. _AWS: http://aws.amazon.com/
 .. _Glacier: http://aws.amazon.com/glacier/
 .. _SimpleDB: http://aws.amazon.com/simpledb/
+.. _pip: http://www.pip-installer.org/
 .. _BillyShambrook: https://github.com/billyshambrook
 .. _Github: https://github.com/billyshambrook/awsarchive
+.. _API: http://awsarchive.readthedocs.org/#api

@@ -8,6 +8,7 @@ setup(
     name='awsarchive',
     version=VERSION,
     author='Billy Shambrook',
+    author_email='billy.shambrook@gmail.com',
     description='Toolkit for archiving files using AWS products.',
     long_description=open('README.rst').read(),
     license='MIT',
