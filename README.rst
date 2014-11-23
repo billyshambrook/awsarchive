@@ -9,7 +9,10 @@ line utilities and Python API's.
 
 * `Used AWS Services`_
 * `Command line utilities`_
+* `API usage`_
 * `Contribute`_
+
+Further Documentation: http://awsarchive.readthedocs.org/
 
 
 Used AWS Services
@@ -19,6 +22,9 @@ Used AWS Services
 
 * Glacier_
 * SimpleDB_
+
+The project assumes that you have a single AWS access and secret key that can be
+used across the AWS services used.
 
 
 Command line utilities
@@ -45,11 +51,12 @@ Commands Description
 glacier  Move files to Glacier_.
 ======== ==========================
 
+
 Contribute
 ----------
 
 `awsarchive` is an open-source software originally written by BillyShambrook_ 
-and released under the MIT licence. The project is hosted on Github_ , where
+and released under the MIT licence. The project is hosted on Github_, where
 everyone is welcome to contribute, ask for help or simply give feedback. Please
 fork project, add your changes and open a pull request.
 
