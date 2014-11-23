@@ -5,8 +5,14 @@ import os.path
 from boto import sdb, connect_glacier
 
 
-ArchiveMetadata = namedtuple(
-    'ArchiveMetadata', 'archive_id filename vault region')
+class ArchiveMetadata(
+        namedtuple('ArchiveMetadata', 'archive_id filename vault region')):
+    """
+    :ivar archive_id: AWS Glacier archive ID.
+    :ivar filename: Filename.
+    :ivar vault: AWS Glacier vault name.
+    :ivar region: AWS region name.
+    """
 
 
 def to_glacier(filename, vault_name, access_key, secret_key, region):
