@@ -11,7 +11,8 @@ line utilities and Python API's.
 * `Installation`_
 * `Contribute`_
 * `Command line utilities`_
-* `API`_
+* `API examples`_
+* `API reference`_
 
 Further Documentation: http://awsarchive.readthedocs.org/
 
@@ -80,11 +81,8 @@ glacier  Move files to Glacier_.
 ======== ==========================
 
 
-API
----
-
-Examples
-~~~~~~~~
+API examples
+------------
 
 To archive a file to AWS Glacier, you can do the following:
 
@@ -117,8 +115,8 @@ This will first create the domain if not already present, then add the archive
 metadata as a new item, using the archive_id as its item name.
 
 
-API Reference
-~~~~~~~~~~~~~
+API reference
+-------------
 
 .. automodule:: awsarchive.__init__
     :members:
